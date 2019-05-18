@@ -18,12 +18,11 @@ fn gcd(mut n: usize, mut m: usize) -> usize {
     // the remainder of the larger
     // divided by the smaller
     // when you get a remainder of zero
-    // return the divisor (smaller number)
-    // that generated the
-    // remainder zero
+    // return the divisor 
+    // (the smaller int)
     // that's the gcd
     //
-    // Euclid, 300 BC
+    // - Euclid, 300 BC
     // earth's first software dev
     if n == 0 || m == 0 {
         panic!("cannot compute the greatest common divisor for zero")
